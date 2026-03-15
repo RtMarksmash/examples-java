@@ -9,5 +9,13 @@ public class Persona {
         this.apellido = apellido;
         this.edad = edad;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
     
 }
